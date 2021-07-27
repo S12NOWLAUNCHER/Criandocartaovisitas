@@ -1,0 +1,12 @@
+class MainViewModel (private val businessCardRepository: BusinessCardRepository. ViewModel ()) {
+
+    fun insert (businnesCard : BusinessCard) {
+
+        fun getAll {LiveData<List<BusinessCard>
+        {
+            return businessCardRepository.getAll()
+        }
+
+        }
+    }
+}
